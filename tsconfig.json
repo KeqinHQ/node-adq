@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "module": "NodeNext",
+        "rootDirs": [ "./src", "./tests" ],
+        "moduleResolution": "node",
+        "target": "ES2017",    
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "types": ["node"],
+        "typeRoots": [
+            "./types",
+        ]
+    }
+}
+
